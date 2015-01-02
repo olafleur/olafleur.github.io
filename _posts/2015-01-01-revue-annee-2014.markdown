@@ -1,0 +1,95 @@
+---
+layout: post
+title:  "Revue 2014"
+date:   2015-01-01 10:00:00
+author: Olivier Lafleur
+---
+Inspiré par [l'article de blog de fogus](http://blog.fogus.me/2014/12/29/the-best-things-and-stuff-of-2014/), j'ai 
+décidé de faire un petit sommaire de mon année.
+
+Livres techniques lus
+---------------------
+- Code simplicity (Max Kanat-Alexander)
+- Refactoring (Martin Fowler) - *converti un des exemples en C# pour mes étudiants*
+- Functional Programming in Scala - *en cours*
+- SICP - *surtout lu les premières pages en attendant de recevoir le livre précédent*
+
+*Je n'ai probablement pas tout noté...*
+
+Livres non-techniques lus
+-------------------------
+- Why I am an Atheist Who Believes in God: How to give love, create beauty and find peace (Frank Schaeffer)
+- How Learning Works (Susan Ambrose et al.)
+- Le Pharmachien : distinguer le vrai du n'importe quoi en santé (Olivier Bernard)
+
+*Certainement plus de livres que ça, mais j'ai pas tout noté non plus...*
+
+Conférences auxquelles j'ai participé
+-------------------------------------
+- [Web à Québec 2014](http://2014.webaquebec.org/) - *Conférencier intéressant : Sylvain Carle, de Twitter*
+- [PyCon 2014 / Education Summit](https://us.pycon.org/2014/) - *Découverte de Gary Bernhardt*
+- [Agile Tour 2014](http://agilequebec.ca/agile-tour-2014/) - *Un des conférenciers : Martin Fowler*
+
+Formations/Cours donnés
+------------------
+- Google App Engine codelab (GDG Montréal) - [diaporama](https://drive.google.com/open?id=1sbKnLenoF3kPVvDm0hqKFC3hUFqfRaadrPjVrIIlIn8&authuser=1)
+- Cours : Commerce électronique (à la session d'hiver) - [voir projets](http://205.236.12.51/projet/h2014/)
+- Cours : Implantation d'un système informatique (à la session d'automne) - *projets : [1](http://205.236.12.31) [2](http://205.236.12.32) [3](http://205.236.12.33) [4](http://205.236.12.34)*
+- Formation individualisée d'une semaine intensive (40 heures) sur [GWTP](http://gwtp.arcbees.com) - *pour un client d'ArcBees*
+- De multiples supervisions de stage d'étudiants Québécois et Français
+
+Événements organisés
+--------------------
+- [Google I/O Extended](https://plus.google.com/u/0/events/csia35hfrvijfp4r391hleucco8) - *avec le GDG Québec*
+- [Salon de l'emploi informatique](https://www.facebook.com/events/712070928885637/)
+
+Formation continue
+------------------
+- Terminer ma Maîtrise en informatique (Avril 2014)
+- Formation d'instructeur pour [Software Carpentry](http://software-carpentry.org/) (Automne 2014)
+- [Dart Flight School](https://plus.google.com/events/cin72k2h15oiamgb2bik1sbuu7c)
+- Atelier de TDD en Python (organisé par Québec-Python et donné par Gregory F. Sanderson)
+
+Projets Open Source auxquels j'ai contribué
+---------------------
+- [term2048](https://github.com/bfontaine/term2048/pull/9)
+- [ArcBees-tools](https://github.com/ArcBees/ArcBees-tools/commits?author=olafleur)
+- [GWTP](https://github.com/ArcBees/GWTP/commits?author=olafleur)
+- [Samples de GWTP](https://github.com/ArcBees/GWTP/commits?author=olafleur)
+- [gwt-stripe](https://github.com/ArcBees/gwt-stripe/commits?author=olafleur)
+- [diy-lisp](https://github.com/kvalle/diy-lisp/commits?author=olafleur)
+- [Jukito](https://github.com/ArcBees/Jukito/commits?author=olafleur)
+- [Plugin GWTP pour IntelliJ](https://github.com/ArcBees/gwtp-idea-plugin/commits?author=olafleur)
+
+Sites web auxquels j'ai contribué
+-------------------------------------------
+- [Défi allaitement 2014](http://defiallaitementquebec.com)
+
+Projets fermés (pour l'instant) auxquels j'ai contribué
+------------------------------------------
+- Nom de code : RV204
+- [GAE-Studio](http://gaestudio.arcbees.com/)
+
+Nouveaux langages (exploration)
+-------------------------------
+Dart, Scala, Scheme, Java 8, Python 3
+
+Nombre d'articles de blog écrits
+--------------------------------
+1
+
+Plans pour 2015
+---------------
+- Compléter un cours de Coursera (HTML5 Game Programming, probablement)
+- Avoir un premier prototype du projet RV204
+- Créer une newsletter
+- Être impliqué de façon significative dans un projet open source
+- Finir le livre *Functional Programming in Scala*
+- Écrire (au moins) 12 articles de blog dans l'année
+
+Dans le volet plus exploration :
+
+- Lire des papiers scientifiques/techniques en informatique
+- Programmer un *browser engine* jouet
+- Mieux comprendre Shadow DOM / Web Components / Polymer, etc.
+- Lire *JavaScript : The Good Parts*
