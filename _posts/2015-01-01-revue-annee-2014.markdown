@@ -80,7 +80,7 @@ Nombre d'articles de blog écrits
 
 Plans pour 2015
 ---------------
-- Compléter un cours de Coursera (HTML5 Game Programming, probablement)
+- Compléter un cours de Udacity ([HTML5 Game Programming](https://www.udacity.com/course/cs255), probablement)
 - Avoir un premier prototype du projet RV204
 - Créer une newsletter
 - Être impliqué de façon significative dans un projet open source
