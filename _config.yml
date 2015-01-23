@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Enseignant au Département d'informatique du Cégep de Lévis-Lauzon.
   Passionné de l'Open Source et du web ouvert.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://olivierlafleur.com" # the base hostname & protocol for your site
+url: "http://blog.olivierlafleur.com" # the base hostname & protocol for your site
 twitter_username: olilafleur
 github_username:  olafleur
 

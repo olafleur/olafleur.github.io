@@ -36,6 +36,7 @@ Formations/Cours donnés
 - Cours : Commerce électronique (à la session d'hiver) - [voir projets](http://205.236.12.51/projet/h2014/)
 - Cours : Implantation d'un système informatique (à la session d'automne) - *projets : [1](http://205.236.12.31) [2](http://205.236.12.32) [3](http://205.236.12.33) [4](http://205.236.12.34)*
 - Formation individualisée d'une semaine intensive (40 heures) sur [GWTP](http://gwtp.arcbees.com) - *pour un client d'ArcBees*
+- Formation d'un nouvel employé chez ArcBees
 - De multiples supervisions de stage d'étudiants Québécois et Français
 
 Événements organisés
