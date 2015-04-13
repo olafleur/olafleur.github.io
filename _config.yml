@@ -11,3 +11,4 @@ github_username:  olafleur
 
 # Build settings
 markdown: kramdown
+timezone: America/Montreal

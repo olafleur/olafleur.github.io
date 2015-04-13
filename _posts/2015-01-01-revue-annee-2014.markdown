@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Revue 2014"
-date:   2015-01-01 10:00:00
+date:   2015-01-01 00:00:00
 author: Olivier Lafleur
 ---
 Inspiré par [l'article de blog de fogus](http://blog.fogus.me/2014/12/29/the-best-things-and-stuff-of-2014/), j'ai 
