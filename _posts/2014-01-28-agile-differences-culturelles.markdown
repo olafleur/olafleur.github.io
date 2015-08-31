@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Agile : différences culturelles?"
-date:   2014-01-28 00:00:00
+date:   2014-01-28 08:00:00
 author: Olivier Lafleur
 ---
 Dans mon cours d'aujourd'hui, pour savoir ce que les étudiants connaissaient des méthodes agiles, j'ai posé la question suivante : “Qu'est-ce que les termes méthodes agiles évoquent pour vous?”
