@@ -3,6 +3,7 @@ layout: post
 title:  "WIPs vs FOs"
 date:   2015-10-01 08:00:00
 author: Olivier Lafleur
+comments: true
 ---
 L'incroyable designer de tricot et artiste Zab Allard (totale transparence :
 c'est ma mère) a écrit

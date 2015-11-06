@@ -3,8 +3,9 @@ layout: post
 title:  "Revue 2014"
 date:   2015-01-01 08:00:00
 author: Olivier Lafleur
+comments: true
 ---
-Inspiré par [l'article de blog de fogus](http://blog.fogus.me/2014/12/29/the-best-things-and-stuff-of-2014/), j'ai 
+Inspiré par [l'article de blog de fogus](http://blog.fogus.me/2014/12/29/the-best-things-and-stuff-of-2014/), j'ai
 décidé de faire un petit sommaire de mon année.
 
 Livres techniques lus
