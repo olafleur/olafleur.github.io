@@ -6,7 +6,7 @@ author: Olivier Lafleur
 comments: true
 ---
 
-![Logo de Scala]({{ site.url }}/images/scala.png)
+![Logo de Scala](/images/scala.png)
 
 Ces jours-ci, j'explore plusieurs langages, et un que j'apprécie particulièrement
 est Scala. Fait intéressant : dépendant comment on l'utilise, il peut être très
