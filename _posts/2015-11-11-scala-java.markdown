@@ -6,6 +6,8 @@ author: Olivier Lafleur
 comments: true
 ---
 
+![Logo de Scala]({{ site.url }}/images/scala.png)
+
 Ces jours-ci, j'explore plusieurs langages, et un que j'apprécie particulièrement
 est Scala. Fait intéressant : dépendant comment on l'utilise, il peut être très
 similaire ou très différent de Java. Dans cet article, je vous présenterai les
