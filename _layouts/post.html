@@ -14,7 +14,7 @@ layout: default
   <a href="https://twitter.com/share" class="twitter-share-button" data-via="olilafleur">Tweet</a>
 
   <p class="post-meta">Créé{% if page.author %} par {{ page.author }}{% endif %} le {{ page.date | date: "%-d/%m/%Y" }}</p>
-  
+
   {% if page.comments %}
   <div id="disqus_thread"></div>
 <script>
@@ -24,8 +24,8 @@ layout: default
    */
 
   var disqus_config = function () {
-      this.page.url = "http://blog.olivierlafleur.com/";  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = "{{ page.title }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      this.page.url = "http://blog.olivierlafleur.com{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
   };
 
   (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW

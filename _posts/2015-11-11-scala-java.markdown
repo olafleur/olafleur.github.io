@@ -48,6 +48,13 @@ veut simplifier à l'extrême, pour ajouter Scala à un projet Java déjà exist
 il suffit d'ajouter un JAR (ou une dépendance) à votre projet et vous
 êtes bons pour commencer.
 
+Supposons qu'on a une classe `Animal` qui est un objet en Java, il suffit de
+faire un import de la dite classe en Scala pour l'utiliser:
+
+<pre><code class="scala">import com.olivierlafleur.share.Animal;
+//...
+val animal = new Animal
+</code></pre>
 
 ### Syntaxe
 Scala est un langage fortement typé, tout comme Java, avec une inférence de type
@@ -123,7 +130,7 @@ En Java, cela aurait l'air de ceci :
 <pre><code class="java">public interface PeutManger {
     void mange();
 
-    static void digerer() {
+    default void digerer() {
         System.out.println("Miam, c'était délicieux");
     }
 }
@@ -164,7 +171,7 @@ En Java :
         System.out.println("Votre dragon " + nom + " a mangé");
     }
 
-    public static Dragon buildDummyDragon() {
+    public static Dragon construireDragon() {
         return new Dragon("Ami", 42);
     }
 }
