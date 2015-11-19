@@ -111,7 +111,7 @@ ce qui n'est pas très dépaysant mais à mon sens pas mal plus lisible.
 Une des forces de Scala (et un des plus par rapport à Java) est ce qu'on appelle le
 _pattern matching_. C'est une sorte de `switch`, mais que l'on peut étendre à
 n'importe quel type (donc pas seulement les types primitifs ou permis par le
-  compilateur) et qui permet d'extraire les variables contenu dans l'objet.
+  compilateur) et qui permet d'extraire les variables contenues dans l'objet.
 
 Par exemple, dans l'exemple ci-dessous, où nous avons une vérification de `null`
 à faire en Java, nous pouvons directement traiter la variable comme un `Option`
@@ -182,7 +182,7 @@ deux cas : `mvn clean install`[^3]. Et puis après tout, comme le dit David Poll
 
 [^1]: Il faudrait, j'imagine, en faire la démonstration, puisque je ne l'ai jamais essayé. Pour faire du développement frontend avec Scala, je vous recommande la librairie [Scala.js](http://www.scala-js.org/), qui pourrait éventuellement faire l'objet d'un autre article.
 
-[^2]: Pour les lecteurs attentifs, vous remarquerez que l'on utilise `val`, qui est censé indiqué l'immutabilité d'un objet, mais nous effectuons un `setId` à la ligne d'après. En fait, c'est que ce qui n'est pas permis comme modification c'est la réassignation d'une variable (ce que `var` permet). Ainsi, si vous voulez vraiment qu'un objet soit immutable, il ne faut pas lui donner de _setter_.
+[^2]: Pour les lecteurs attentifs, vous remarquerez que l'on utilise `val`, qui est censé indiquer l'immutabilité d'un objet, mais nous effectuons un `setId` à la ligne d'après. En fait, c'est que ce qui n'est pas permis comme modification c'est la réassignation d'une variable (ce que `var` permet). Ainsi, si vous voulez vraiment qu'un objet soit immutable, il ne faut pas lui donner de _setter_.
 
 [^3]: En Scala idiomatique, on utilise plutôt le *Scala Build Tool* (sbt) que Maven, par contre.
 
