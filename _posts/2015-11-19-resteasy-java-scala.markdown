@@ -4,7 +4,7 @@ title:  "Traduire une API REST de Java à Scala"
 date:   2015-11-19 08:00:00
 author: Olivier Lafleur
 comments: true
-published: false
+published: true
 ---
 
 À la suite de [mon dernier article](/2015/11/11/scala-java.html), [un lecteur](https://twitter.com/JoelTHebert) m'a
@@ -18,7 +18,7 @@ Java.
 
 J'ai donc décidé de partir d'une [API REST Java de base](https://github.com/olafleur/convert-java-restapi-to-scala/tree/java_initial),
 bâtie avec RESTEasy (et récupérée dans [les exemples de base](https://github.com/resteasy/Resteasy/tree/3.0.13.Final/jaxrs/examples/oreilly-workbook/ex03_1) de la librairie), et
-de convertir les fichiers qui font l'application à proprement parler en Scala. Par ailleurs,
+de convertir en Scala les fichiers qui font l'application à proprement parler. Par ailleurs,
 je me suis aussi mis comme contrainte de garder mes objets de domaine en Java et
 de garder le test qui était déjà dans le projet intact.
 
@@ -142,6 +142,8 @@ devient
 </code></pre>
 
 Cela fait essentiellement le tour des styles de modifications à faire dans `CustomerResource`.
+
+#### Un autre fichier
 
 La conversion du fichier `ShoppingApplication` est elle aussi simple. La chose
 particulièrement intéressante que celle-ci montre est que, non seulement on peut
