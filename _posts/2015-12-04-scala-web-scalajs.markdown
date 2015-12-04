@@ -4,12 +4,12 @@ title:  "Scala pour le web : Scala.js"
 date:   2015-12-04 08:00:00
 author: Olivier Lafleur
 comments: true
-published: false
+published: true
 ---
 
 Lorsque l'on développe des applications web, JavaScript est essentiellement un passage obligé[^1], et on doit soit utiliser ce langage en soi ou utiliser un autre langage qui va compiler en JavaScript ([il en existe une panoplie](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)).
 
-Il y a par contre plusieurs propriétés que certains développeurs n'apprécient pas tellement de JavaScript : le typage dynamique, l'héritage par prototypes (et non pas l'héritage hiérarchique comme dans la majorité des langages les plus populaires) et le fait que le langage agisse parfois de façon inattendue[^2], entre autres.
+Il y a par contre plusieurs propriétés que certains développeurs n'apprécient pas tellement de JavaScript : le typage dynamique, [l'héritage par prototypes](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_prototype#Exemple_:_l.27h.C3.A9ritage_en_JavaScript) (et non pas l'héritage hiérarchique comme dans la majorité des langages les plus populaires) et le fait que le langage agisse parfois de façon inattendue[^2], entre autres.
 
 Scala.js est une tentative de régler une partie des problèmes de JavaScript tout en permettant d'utiliser Scala du côté client et du côté serveur. Ainsi, pour les développeurs travaillant sur un projet découpé de cette façon, il n'est pas nécessaire de changer de langage pour réaliser l'application au complet.
 
@@ -41,7 +41,7 @@ object MonApp extends JSApp {
 }
 </code></pre>
 
-Vous vous doutez bien que ceci fera afficher dans la console du navigateur le simple message `"Bonjour, monde"`.
+Vous vous doutez bien que ceci fera afficher dans la console du navigateur le simple message `Bonjour, monde`.
 
 Pour que ce code Scala devienne du JavaScript, vous devrez taper `sbt` en ligne de
 commande (on l'a installé plus tôt, vous vous souvenez?) puis taper la commande
@@ -72,8 +72,8 @@ Voici un exemple de fichier HTML qui ferait l'affaire :
 
 ### Intéropérabilité avec JavaScript
 
-On sait que Scala est intéropérable de façon transparente avec Java. Ainsi, une fonctionnalité très intéressant de Scala.js est le fait que celui-ci soit intéropérable de façon transparente avec JavaScript.
-En effet, il contient un type (js.Dynamic) qui permet de mettre du JavaScript tel quel dans le code. Par exemple, à l'intérieur d'un fichier Scala, on pourrait mettre ce code-ci:
+On sait que Scala est intéropérable de façon transparente avec Java. De la même façon, une fonctionnalité très intéressante de Scala.js est le fait que celui-ci soit intéropérable de façon transparente avec JavaScript.
+En effet, il contient un type (`js.Dynamic`) qui permet de mettre du JavaScript tel quel dans le code. Par exemple, à l'intérieur d'un fichier Scala, on pourrait mettre ce code-ci:
 <pre><code class="scala">import scala.scalajs.js
 //...
 val document = js.Dynamic.global.document
@@ -86,7 +86,7 @@ testDiv.appendChild(nouveauP)
 
 Ce qui est intéressant de noter, c'est que toutes les fonctions qui sont appelées dans ce code sont du JavaScript pur, c'est à dire typées dynamiquement et sans *hint* de l'éditeur. Ainsi, si on y glisse une erreur, ce n'est qu'à l'exécution que l'erreur sera détectée.
 
-### Manipulation de la DOM
+### Manipulation du DOM
 
 Ainsi, il serait probablement plus souhaitable de pouvoir faire le même genre de traitement, mais en ayant une validation à la compilation.
 
@@ -110,11 +110,12 @@ Comme vous le voyez, le code est identique, à l'exception du `import` et de la 
 <pre><code class="scala"> val document = js.Dynamic.global.document
 </code></pre>
 qui n'est plus nécessaire.
-Par contre, cette fois-ci, lorsque nous sommes dans l'éditeur et qu'une erreur s'y glisserait, le compilateur nous avertirait immédiatement.
+Par contre, cette fois-ci, lorsque nous sommes dans l'éditeur et qu'une erreur s'y glisse, le compilateur nous avertit immédiatement.
 
 ### ScalaTags
 
-Typiquement (en particulier lors de la réalisation d'une SPA[^4]), on ne veut pas mettre tout notre HTML initial dans la page de départ. On veut pouvoir travailler avec de façon dynamique. Il existe une librairie qui permet non seulement de le faire, mais aussi de le faire de façon fortement typée. Elle s'appelle [ScalaTags](http://lihaoyi.github.io/scalatags/).
+Typiquement (en particulier lors de la réalisation d'une [*Single Page Application*](https://fr.wikipedia.org/wiki/Application_web_monopage)), on ne veut pas mettre tout notre HTML initial dans la page de départ. On voudrait pouvoir générer du HTML de façon dynamique à partir de Scala.
+Il existe une librairie qui permet non seulement de le faire, mais aussi de le faire de façon fortement typée. Elle s'appelle [ScalaTags](http://lihaoyi.github.io/scalatags/).
 
 Par exemple :
 
@@ -128,7 +129,7 @@ Par exemple :
 
 ### Conclusion
 
-Comme vous voyez, on peut avoir bien du plaisir avec cette librairie. Bien entendu, ceci n'est qu'un rapide tour d'horizon de quelques fonctionnalités de base de cette librairie, n'hésitez pas à explorer [la documentation et les exemples](http://www.scala-js.org/tutorial/) afin d'en apprendre plus. Par ailleurs, il existe aussi d'excellentes conférences ([comme celle-ci](https://www.youtube.com/watch?v=9SalPdAEI28)) qui permettent de voir de façon plus interactive de quoi il en retourne. Amusez-vous bien!
+Comme vous voyez, on peut avoir bien du plaisir avec cette librairie. Bien entendu, ceci n'est qu'un rapide tour d'horizon de quelques fonctionnalités de base, n'hésitez pas à explorer [la documentation et les exemples](http://www.scala-js.org/tutorial/) afin d'en apprendre plus. Par ailleurs, il existe aussi d'excellentes conférences ([comme celle-ci](https://www.youtube.com/watch?v=9SalPdAEI28)) qui permettent de voir de façon plus interactive de quoi il en retourne. Amusez-vous bien!
 
 ---
 ---
@@ -139,4 +140,4 @@ Comme vous voyez, on peut avoir bien du plaisir avec cette librairie. Bien enten
 
 [^3]: La commande en production pour avoir le fichier JavaScript le plus petit (mais qui prendra plus de temps à compiler) est `fullOptJS`
 
-[^4]: *Single-page application*
+**Merci** à JF Bourget et JC Larivière pour leurs commentaires, qui m'ont permis d'améliorer cet article.

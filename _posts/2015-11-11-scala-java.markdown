@@ -206,3 +206,8 @@ du langage qui permette de nous familiariser avec la structure de ce langage.
 Dans le prochain article, nous commencerons à explorer les éléments particuliers
 de Scala qui nous permettent d'utiliser de nouveaux outils dans la résolution
 de nos problèmes informatiques.
+
+---
+---
+
+**Merci** à JC Larivière, Joël Trottier-Hébert et Jni Viens pour leurs commentaires, qui m'ont permis d'améliorer cet article.

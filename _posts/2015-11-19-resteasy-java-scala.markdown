@@ -189,3 +189,5 @@ deux cas : `mvn clean install`[^3]. Et puis après tout, comme le dit David Poll
 [^3]: En Scala idiomatique, on utilise plutôt le *Scala Build Tool* (sbt) que Maven, par contre.
 
 [^4]: Cité par Daniel Spiewak dans [son excellent article très complet](http://www.codecommit.com/blog/java/interop-between-java-and-scala) sur l'intéropérabilité entre Java et Scala, allant même jusqu'à comparer le résultat de la compilation sur la JVM.
+
+**Merci** à JC Larivière et Joël Trottier-Hébert pour leurs commentaires, qui m'ont permis d'améliorer cet article.
