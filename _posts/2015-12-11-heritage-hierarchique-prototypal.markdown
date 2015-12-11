@@ -140,3 +140,5 @@ L'héritage par prototypes n'est pas quelque chose auquel les développeurs qui 
 ---
 
 [^1]: À prendre en note : je ne suis pas un expert en JavaScript, alors tout ce que je raconte et explique à propos de l'héritage par prototypes tel que pratiqué en JavaScript est basé sur mon expérience (ma foi, limitée) en JavaScript. N'hésitez pas à me corriger si je dis des âneries.
+
+**Merci** à JC Larivière pour ses commentaires, qui m'ont permis d'améliorer cet article.
