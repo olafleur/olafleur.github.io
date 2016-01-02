@@ -1,0 +1,117 @@
+---
+layout: post
+title:  "Revue 2015"
+date:   2016-01-02 08:00:00
+author: Olivier Lafleur
+comments: true
+---
+Comme [l'an passé](/2015/01/01/revue-annee-2014.html), voici une petite revue de mon année sous différents aspects.
+
+Livres techniques lus
+---------------------
+- JavaScript : The Good Parts (Douglas Crockford) - *J'y ai découvert l'héritage par prototypes*
+- The Passionate Programmer (Chad Fowler) - *Très intéressant : j'ai commencé à le recommander aux étudiants finissants en informatique*
+- Soft Skills (John Sonmez) - *Lecture en cours*
+
+Livres non-techniques lus
+-------------------------
+- Troisième humanité - Tome 1 (Bernard Werber)
+- What to Do When it's Your Turn (Seth Godin)
+- V is for Vulnerable (Seth Godin)
+- Paul à Québec (Michel Rabagliati)
+- Astérix : Le papyrus de César
+- Remote : Office Not Required (Jason Fried et David Heinemeier Hansson) - *Je trouve que ce devrait être une lecture obligatoire pour les employés qui travaillent à distance ou les employeurs qui travaillent avec des employés à distance*
+
+Conférences les plus marquantes
+----------------------------------
+- [Bret Victor : The Humane Representation of Thought](https://vimeo.com/115154289) - *Il pense tellement à long terme, c'est rafraîchissant*
+
+- [The Combinator Approach to Programming Domain Specific Languages with F#](https://skillsmatter.com/skillscasts/2567-dsls-fsharp)
+
+- [Kent Beck : Agile Africa 2015 - Managing By The 'Book](https://www.youtube.com/watch?v=I3tTCuhO6ho) - *Nothing at Facebook is someone else's problem*
+
+- [Jessica Kerr : Elixir Should Take Over the World](https://www.youtube.com/watch?v=X25xOhntr6s) - *Une conférence qui n'est pas tant sur Elixir, mais sur l'avenir des bonnes pratiques de programmation*
+
+Articles scientifiques les plus marquants
+-----------------------------------------
+- [MapReduce: Simplified Data Processing on Large Clusters](http://static.googleusercontent.com/media/research.google.com/fr//archive/mapreduce-osdi04.pdf) - *L'article classique qui introduit les concepts de Map et de Reduce, qui sont maintenant utilisés partout en informatique*
+
+- [An Empirical Comparison of the Accuracy Rates of Novices
+using the Quorum, Perl, and Randomo Programming Languages](http://ecs.victoria.ac.nz/foswiki/pub/Events/PLATEAU/Program/plateau2011-stefik.pdf) et sa suite, [An Empirical Investigation into Programming Language Syntax](http://neverworkintheory.org/2014/01/29/stefik-siebert-syntax.html) - *Où l'on montre que certains langages (Python, Ruby, par exemple) sont plus adaptés pour les novices en programmation.*
+
+- [Recursive functions of symbolic expressions and their computation by machine, Part I](http://dspace.mit.edu/bitstream/handle/1721.1/6096/AIM-008.pdf?sequence=2) - *L'article classique qui introduit Lisp*
+
+- [Composing contracts: an adventure in financial engineering](https://lexifi.com/files/resources/MLFiPaper.pdf) - *Une utilisation très concrète des combinators*
+
+Conférences auxquelles j'ai participé
+-------------------------------------
+- [Web à Québec 2015](http://2015.webaquebec.org/) - *Encore une fois, ce fut très intéressant. L'ajout d'une track développeurs dans la salle Savoir-Faire Linux a rendu la conférence encore plus intéressante pour les personnes ayant un bagage technique.*
+
+Formations/Cours donnés
+------------------
+- Mentor pour [Ladies Learning Code](https://www.facebook.com/groups/LearningCodeQC/?fref=ts) : Introduction à Python - *Je suis content d'avoir eu la chance de promouvoir l'informatique auprès des femmes, puisque c'est une cause qui me tient à coeur.*
+- Cours au Cégep : Fonctionnement interne d'un ordinateur - *Cours basé sur l'assembleur, la structure interne d'un ordinateur et sur les opérations binaires, hexadécimales, etc.*
+- Cours au Cégep : Vision par ordinateur - *J'ai eu la chance d'introduire un projet final dans ce cours où les étudiants ont réalisé des projets avec Kinect ou Leap Motion*
+- Supervisions de stage d'étudiants en informatique au Cégep
+- Formation individualisée (avec une graphiste) : introduction à la programmation web
+- Création d'un cours sur Didacte : [Getting Started with GWT](https://arcbees.didacte.com/a/course/168)
+- Formation d'une journée sur GWT à l'Université Laval
+- Création de 6 vidéos How-to sur GWTP [en anglais](https://www.youtube.com/playlist?list=PLZhavHtU3BmsnTvR9ZUwib2DK_mYHK2Yo) et [en français](https://www.youtube.com/playlist?list=PLZhavHtU3BmvIR6C6QDq3ual38EHSIDh_)
+- Participation à [2 Q&A sur GWT](https://www.youtube.com/playlist?list=PLZhavHtU3BmuJ_FUQR_LPkNYS6NDdfskH)
+
+Événements organisés
+--------------------
+- [Hackathon sur GWTP](http://blog.arcbees.com/2015/08/19/new-release-for-gwtp-and-its-intellij-plugin/)
+- [Coding Dojo](https://www.facebook.com/events/182910988709543/)
+- Hackathon créatif chez Arcbees
+
+Formation continue
+------------------
+- Plusieurs cours sur Pluralsight (Unit Testing with F#, Scala for Java Developers, Functional Programming in Java, etc.)
+- Obtention du titre [Professional Scrum Master (PSM)](https://www.scrum.org/Assessments/Certification-Lists?AssessmentName=PSM%20I&l=lafleur).
+- edX : [Introduction to Functional Programming](https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0) (Erik Meijer) - *Une belle présentation des concepts de la programmation fonctionnelle en utilisant Haskell*
+
+Projets Open Source auxquels j'ai contribué
+---------------------
+- [Documentation en français sur git](https://github.com/dinfcll/doc-git/commits?author=olafleur)
+- [Archétypes d'Arcbees](https://github.com/ArcBees/Arcbees-Archetypes/commits?author=olafleur)
+- [GWTChosen](https://github.com/ArcBees/gwtchosen/commits?author=olafleur)
+- [GWTP](https://github.com/ArcBees/GWTP/commits?author=olafleur)
+- [gwt-polymer](https://github.com/ArcBees/gwt-polymer/commits?author=olafleur)
+- [Templates d'éditeurs Arcbees](https://github.com/ArcBees/IDE-Templates/commits?author=olafleur)
+- [Plugin IntellJ pour GWTP](https://github.com/ArcBees/gwtp-idea-plugin/commits?author=olafleur)
+- [Samples de GWTP](https://github.com/ArcBees/GWTP-Samples/commits?author=olafleur)
+- [highlight.js](https://github.com/isagalaev/highlight.js/issues/956)
+
+Projets fermés (pour l'instant) auxquels j'ai contribué
+------------------------------------------
+- Nom de code : Honey - *projet en Scala réalisé lors du hackathon créatif d'Arcbees*
+
+Langages explorés
+-------------------------------
+JavaScript, Scala, F#, Haskell.
+
+Nombre d'articles de blogue écrits
+--------------------------------
+14 : 6 sur mon blogue personnel et [8 sur le blogue d'Arcbees](http://blog.arcbees.com/author/olafleur/).
+
+Objectifs de 2015
+-----------------
+- Compléter un cours de Udacity - *Je n'ai pas complété de cours sur Udacity, mais j'ai complété plusieurs MOOCs, je suis donc très satisfait.*
+- Avoir un premier prototype du projet RV204 - *Nous avons réalisé un premier prototype, mais le logiciel n'a pas été déployé en production.*
+- Créer une newsletter - *Fait. En pratique, je ne l'ai pas publicisé du tout, alors il n'y a pas d'abonnés. ;)*
+- Être impliqué de façon significative dans un projet open source - *Lorsque j'ai écrit ceci, je pensais à un projet en dehors du travail, mais dans l'absolu, j'ai contribué à plusieurs projets de façon significative dans le cadre de mon travail.*
+- Finir le livre *Functional Programming in Scala* - *Non.*
+- Écrire (au moins) 12 articles de blog dans l'année - *J'en ai même écrit 14. Je suis vraiment content.*
+- Lire des papiers scientifiques/techniques en informatique - *Ça aussi c'est réussi : voir plus haut dans cet article*
+- Programmer un *browser engine* jouet - *Mon objectif était de compléter [cette expérience](https://github.com/olafleur/naviga-fun), ce que je n'ai pas fait.*
+- Mieux comprendre Shadow DOM / Web Components / Polymer, etc. - *J'ai eu la chance de faire quelques lectures sur le sujet dans le courant de l'année, mais je n'ai pas fait de projet concret avec ces technologies, ce qui m'aurait aidé.*
+- Lire *JavaScript : The Good Parts* - *Oui.*
+
+Plans pour 2016
+---------------
+- Compléter le cours [Principles of Reactive Programming](https://fr.coursera.org/course/reactive) de Coursera, afin de découvrir la programmation réactive et écrire un article sur le sujet.
+- Découvrir la programmation par acteurs en réalisant un exemple concret (via un article de blogue avec Akka, possiblement.)
+- Écrire (au moins) 30 articles de blogue dans l'année. Je pense que c'est possible, en particulier si je recommence à écrire un article par semaine, comme je le faisais cet automne.
+- Perdre 20 livres et maintenir une bonne condition physique une fois que ce sera fait. Mon poids au 1er janvier est de 168 livres. Je suis assez confiant de réussir à descendre à 148 livres, je l'ai déjà fait. La partie difficile sera de maintenir la bonne condition physique par la suite. ;)
+- Compléter le livre *Soft Skills*

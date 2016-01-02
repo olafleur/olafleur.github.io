@@ -72,6 +72,8 @@ Projets fermés (pour l'instant) auxquels j'ai contribué
 - Nom de code : RV204
 - [GAE-Studio](http://gaestudio.arcbees.com/)
 
+**MISE À JOUR : [l'application web de RV204 est maintenant open source](https://github.com/dinfcll/rv204-web) et [GAE-Studio est lui aussi open source](https://github.com/arcbees/gae-studio).**
+
 Nouveaux langages (exploration)
 -------------------------------
 Dart, Scala, Scheme, Java 8, Python 3
