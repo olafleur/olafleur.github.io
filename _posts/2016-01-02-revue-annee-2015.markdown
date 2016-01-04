@@ -115,3 +115,4 @@ Plans pour 2016
 - Écrire (au moins) 30 articles de blogue dans l'année. Je pense que c'est possible, en particulier si je recommence à écrire un article par semaine, comme je le faisais cet automne.
 - Perdre 20 livres et maintenir une bonne condition physique une fois que ce sera fait. Mon poids au 1er janvier est de 168 livres. Je suis assez confiant de réussir à descendre à 148 livres, je l'ai déjà fait. La partie difficile sera de maintenir la bonne condition physique par la suite. ;)
 - Compléter le livre *Soft Skills*
+- **AJOUT [SUGGÉRÉ PAR PHILIPPE BEAUDOIN](https://plus.google.com/u/0/+OlivierLafleur/posts/LZnKsoNTPsD) : Lire [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) et entraîner un deep network sur un problème de mon choix.**
