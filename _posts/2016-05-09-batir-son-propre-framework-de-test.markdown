@@ -7,7 +7,7 @@ comments: true
 published: false
 ---
 
-Une des librairies les plus utilisées (si ce n'est la plus utilisée) dans le monde des programmeurs Java est JUnit. Il s'agit d'un _framework_ de tests (pas nécessairement unitaires) qui nous permet de rédiger des tests de ce genre :
+Une des librairies les plus utilisées (si ce n'est la plus utilisée) dans le monde des programmeurs Java est [JUnit](http://junit.org/). Il s'agit d'un _framework_ de tests (pas nécessairement unitaires) qui nous permet de rédiger des tests de ce genre :
 
 <pre><code class="Java">@Test
 public void unTest() {
@@ -17,9 +17,9 @@ public void unTest() {
 }
 </code></pre>
 
-C'est un outil très pratique, mais pour beaucoup de développeurs, cette librairie (tout comme beaucoup d'autres outils des programmeurs) ont parfois un aspect magique, ou on se dit qu'on ne pourrait certainement pas réaliser quelque chose du genre.
+C'est un outil très pratique, mais pour beaucoup de développeurs, cette librairie (tout comme beaucoup d'autres outils des programmeurs) a parfois un aspect magique. On se dit qu'on ne pourrait certainement pas bâtir quelque chose du genre.
 
-Un des éléments qui est, je crois, important en informatique, est que l'on devrait comprendre (au moins à haut niveau) comment fonctionnent les outils que l'on utilise. On devrait utiliser les outils non pas parce que qu'on ne sait pas comment les faire, mais plutôt, parce que qu'on n'a pas le goût de les réécrire. Dans la majorité des cas, il est beaucoup plus avantageux de réutiliser un outil déjà existant, qui a déjà été utilisé par une quantité importante de personne, qui a été pensé, structuré et _débuggé_ depuis déjà un certain temps.
+En informatique, les développeurs devraient comprendre (au moins à haut niveau) comment fonctionnent les outils qu'ils utilisent. On devrait utiliser les outils non pas parce que qu'on ne sait pas comment les faire, mais plutôt, parce qu'on n'a pas le goût de les réécrire. Dans la majorité des cas, il est beaucoup plus avantageux de réutiliser un outil déjà existant, qui a déjà été utilisé par une quantité importante de personnes, qui a été pensé, structuré et _débuggé_ depuis déjà un certain temps.
 
 Je me suis donc mis en tête de comprendre un peu mieux comment un framework de test pourrait être bâti.
 
@@ -75,9 +75,9 @@ public class ClasseDeTests {
 
 Alors voici donc les éléments à remarquer dans ce code :
 
-1. Chaque test correspond à une fonction dans la classe
+1. Chaque test correspond à une fonction dans la classe.
 1. On a accès à (au moins) deux fonctions, `verifieVrai(...)` et `verifieEgal(..., ...)` qui nous permettent de dire si le test passe ou échoue.
-1. Nous n'utilisons pas (pour le moment?) d'annotation `@Test` comme en JUnit. Nous exécuterons simplement la classe comme un paramètre à envoyer au framework plutôt que de faire le tout via un _Annotation Processor_.
+1. Nous n'utilisons pas (pour le moment?) d'annotation `@Test` comme en JUnit. Nous exécuterons simplement la classe comme un paramètre à envoyer au framework plutôt que de faire le tout via un processeur d'annotations.
 
 Créer les fonctions de validation
 ---------------------------------
@@ -197,4 +197,4 @@ Bien entendu, on est loin d'un framework de test complet et utilisable en produc
 
 Une amélioration potentielle de cette librairie serait de faire l'exécution des tests non pas avec une classe `Main` mais avec un processeur d'annotations, comme en JUnit (qui utilise l'annotation `@Test` pour dire qu'il s'agit d'un test à exécuter).
 
-Par ailleurs, vous pourrez [trouver sur GitHub l'exemple complet](https://github.com/olafleur/my-own-test-framework)  dans lequel la classe qui contient les tests est reçue en argument à l'exécution (rendant ainsi le logiciel beaucoup plus générique).
+Par ailleurs, vous pourrez [trouver sur GitHub l'exemple complet](https://github.com/olafleur/my-own-test-framework/tree/d1796bf52a0af999c99d798d41df0fa586b455ca)  dans lequel la classe qui contient les tests est reçue en argument à l'exécution (rendant ainsi le logiciel beaucoup plus générique).
