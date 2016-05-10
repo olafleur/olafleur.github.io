@@ -4,7 +4,6 @@ title:  "Bâtir son propre framework de test"
 date:   2016-05-10 08:00:00
 author: Olivier Lafleur
 comments: true
-published: false
 ---
 
 Une des librairies les plus utilisées (si ce n'est la plus utilisée) dans le monde des programmeurs Java est [JUnit](http://junit.org/). Il s'agit d'un _framework_ de tests (pas nécessairement unitaires) qui nous permet de rédiger des tests de ce genre :
