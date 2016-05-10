@@ -27,7 +27,7 @@ Tout d'abord, quels sont les éléments qui composent un tel _framework_ (bien q
 
 1. Avoir accès à des fonctions qui valident le résultat du test comme `assertTrue` ou `assertEquals`
 1. Pouvoir rouler tous les tests d'une classe, peu importe leur nom ou leur nombre.
-1. Notre framework ne devrait pas planter si un test est en erreur (s'il lève une exception, par exemple).
+1. Notre framework ne devrait pas planter si un test est en erreur (s'il lance une exception, par exemple).
 
 La première chose que l'on pourrait faire est écrire une classe de tests telle qu'un développeur qui utilise notre framework l'écrirait.
 
@@ -35,7 +35,7 @@ La première chose que l'on pourrait faire est écrire une classe de tests telle
 import static com.olivierlafleur.testtest.MonFrameworkDeTest.verifieVrai;
 
 public class ClasseDeTests {
-    //Ce test devrait être en erreur puisqu'il lève une exception
+    //Ce test devrait être en erreur puisqu'il lance une exception
     public void divisionParZeroTest() {
         int var1 = 1;
         int var2 = 2;
@@ -116,7 +116,7 @@ Pour le moment, si l'on souhaite avoir le résultat d'un test, il faut appeler d
 
 Pour ce faire, il faudra utiliser la réflexivité. Il s'agit d'aller inspecter la structure d'une autre classe à l'intérieur d'un programme.
 
-Dans ce cas-ci, ce qui nous intéresse est d'aller chercher toutes les méthodes qui sont membres de la classe. On peut donc le faire de la façon suivante :
+Dans ce cas-ci, ce qui nous intéresse est d'aller chercher toutes les méthodes qui sont membres de la classe. On peut le faire de la façon suivante :
 
 <pre><code class="Java">Class c = Class.forName("ClasseDeTests.java");
 Method[] m = c.getDeclaredMethods();
@@ -136,7 +136,7 @@ for (Method test : m) {
 
 Ne pas planter si un test plante
 --------------------------------
-Actuellement, avec ce que nous avons fait, si jamais un test lève une exception, c'est toute l'application qui plante. Ce que l'on souhaiterait, c'est que l'erreur soit attrapée, et qu'elle soit probablement aussi affichée. Par contre, il faudrait que les tests continuent à s'exécuter.
+Actuellement, avec ce que nous avons fait, si jamais un test lance une exception, c'est toute l'application qui plante. Ce que l'on souhaiterait, c'est que l'erreur soit attrapée, et qu'elle soit probablement aussi affichée. Par contre, il faudrait que les tests continuent à s'exécuter.
 
 Nous allons donc entourer l'appel à `invoke` d'un `try ... catch` de cette façon :
 <pre><code class="Java">for (Method test : m) {
