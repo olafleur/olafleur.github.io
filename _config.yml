@@ -2,7 +2,7 @@
 title: Olivier Lafleur
 email: olivier.lafleur@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Développeur chez Arcbees. Passionné de l'Open Source et du web ouvert.
+  Développeur chez Vooban. Passionné de l'Open Source et du web ouvert.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.olivierlafleur.com" # the base hostname & protocol for your site
 twitter_username: olilafleur
