@@ -41,7 +41,7 @@ using the Quorum, Perl, and Randomo Programming Languages](http://ecs.victoria.a
 
 - [Recursive functions of symbolic expressions and their computation by machine, Part I](http://dspace.mit.edu/bitstream/handle/1721.1/6096/AIM-008.pdf?sequence=2) - *L'article classique qui introduit Lisp*
 
-- [Composing contracts: an adventure in financial engineering](https://lexifi.com/files/resources/MLFiPaper.pdf) - *Une utilisation très concrète des combinators*
+- [Composing contracts: an adventure in financial engineering](https://lexifi.com/files/resources/MLFiPaper.pdf) - *Une utilisation très concrète des combinators*
 
 Conférences auxquelles j'ai participé
 -------------------------------------
