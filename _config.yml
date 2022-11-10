@@ -2,11 +2,12 @@
 title: Olivier Lafleur
 email: olivier.lafleur@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Professeur au Cégep de Lévis-Lauzon et Coach agile chez Elapse.
+  Senior Software Developer chez GoDaddy et Professeur au Cégep de Lévis
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://blog.olivierlafleur.com" # the base hostname & protocol for your site
+url: "https://olivierlafleur.com" # the base hostname & protocol for your site
 twitter_username: olilafleur
 github_username:  olafleur
+github_godaddy: olafleur-godaddy
 
 # Build settings
 markdown: kramdown
