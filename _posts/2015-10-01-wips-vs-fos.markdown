@@ -7,7 +7,7 @@ comments: true
 ---
 L'incroyable designer de tricot et artiste Zab Allard (totale transparence :
 c'est ma mère) a écrit
-[un article de blogue qui parle des WIPs et des FOs](http://luniversdepastelle.blogspot.ca/2015/09/quand-les-wips-deviennent-des-fo.html).
+[un article de blogue qui parle des WIPs et des FOs](https://luniversdunetricoteuse.com/2015/09/30/quand-les-wips-deviennent-des-fo/).
 
 <blockquote>
 Je l'avoue: j'essaie de faire mon intéressante! J'ai 2 fils qui écrivent des articles que je ne comprend pas. L'un est informaticien et ce sont des trucs de programmation...et en anglais en plus! Et l'autre est musicien et écrit des critiques d'album de musique jazz pour vrais initiés. Et là, "maman" comprend que dalles à ce que ses fils écrivent. Ha! Ha!
