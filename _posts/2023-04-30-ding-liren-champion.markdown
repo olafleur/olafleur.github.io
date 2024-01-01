@@ -3,7 +3,6 @@ layout: post
 title:  "Ding Liren : nouveau champion du monde des échecs"
 date:   2023-04-30 11:07:00
 author: Olivier Lafleur
-comments: true
 ---
 
 ![Ding Liren](/images/ding-liren.jpeg)
