@@ -13,6 +13,23 @@ layout: default
 
   <p class="post-meta">Créé{% if page.author %} par {{ page.author }}{% endif %} le {{ page.date | date: "%-d/%m/%Y" }}</p>
 
+  {% if page.bluesky_comments %}
+    <div id="bluesky-comments"></div>
+  
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/bluesky-comments@latest/dist/bluesky-comments.umd.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const author = 'olivierlafleur.com';
+        if (author) {
+          initBlueskyComments('bluesky-comments', {author});
+        }
+      });
+    </script>
+  {% endif %}
+
   {% if page.comments %}
   <div id="disqus_thread"></div>
 <script>
