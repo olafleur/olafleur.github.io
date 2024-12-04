@@ -3,8 +3,6 @@ layout: post
 title:  "Héritage prototypal vs hiérarchique"
 date:   2015-12-11 08:00:00
 author: Olivier Lafleur
-comments: true
-published: true
 ---
 
 [Dans un précédent article](/2015/12/04/scala-web-scalajs.html), j'ai parlé de certaines différences que JavaScript a par rapport à d'autres langages.

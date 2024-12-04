@@ -3,8 +3,6 @@ layout: post
 title:  "Scala pour le web : Scala.js"
 date:   2015-12-04 08:00:00
 author: Olivier Lafleur
-comments: true
-published: true
 ---
 
 Lorsque l'on développe des applications web, JavaScript est essentiellement un passage obligé[^1], et on doit soit utiliser ce langage en soi ou utiliser un autre langage qui va compiler en JavaScript ([il en existe une panoplie](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)).
